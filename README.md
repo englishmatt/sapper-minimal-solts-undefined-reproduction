@@ -1,7 +1,7 @@
 Undefined Slots in Sapper
 =========================
 
-A minimal reproduction project to demonstrate the `undefined` slots in [Sapper][1].
+A minimal reproduction project to demonstrate the `undefined` slots in [Sapper][1]. Project based on `npx degit "sveltejs/sapper-template#rollup" my-app`.
 
 Issue
 -----
