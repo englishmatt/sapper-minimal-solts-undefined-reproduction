@@ -33,6 +33,6 @@ Observe Sapper logs in CLI, note the output `undefined`.
 Environment
 -----------
 
-OS: Windows 10
-Node version: 12.16.0
-Sapper version: 0.27.16
+- OS: Windows 10 
+- Node version: 12.16.0 
+- Sapper version: 0.27.16 
