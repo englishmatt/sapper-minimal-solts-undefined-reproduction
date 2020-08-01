@@ -15,7 +15,7 @@
 	}
 </style>
 
-<Nav {segment}/>
+<Nav {segment}>Header Goes Here</Nav>
 
 <main>
 	<slot></slot>

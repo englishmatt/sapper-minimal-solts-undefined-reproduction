@@ -1,5 +1,11 @@
 <script>
 	export let segment;
+
+	const slots = $$props.$$slots;
+
+	// In CSR this outputs the default slot available. In SSR it unexpectedly outputs `undefined`.
+	// This is true for name slots as well.
+	console.log(slots);
 </script>
 
 <style>
@@ -49,6 +55,10 @@
 </style>
 
 <nav>
+	<!-- Not detecting slots correclty in Sapper has implications when performing SSR -->
+	{#if slots}
+		<slot></slot>
+	{/if}
 	<ul>
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
 		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>

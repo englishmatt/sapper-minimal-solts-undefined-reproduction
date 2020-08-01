@@ -1,6 +1,7 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "sapper-minimal-solts-undefined-reproduction",
+  "private": true,
+  "description": "Minimal reproduction demonstrating undefined slots in Sapper.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
