@@ -35,7 +35,7 @@ npm run dev
 ```
 
 1. Navigate to [http://localhost:3000][3]
-2. Observe Sapper logs in CLI, note the output of multipled `undefined` statements. Observe the client-side console contains an entry with the expected output.
+2. Observe Sapper logs in CLI, note the output of multiple `undefined` statements. Observe the client-side console contains an entry with the expected output.
 
 Environment
 -----------
