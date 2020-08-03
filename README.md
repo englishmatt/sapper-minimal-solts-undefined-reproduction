@@ -1,5 +1,5 @@
-Undefined Slots in Sapper
-=========================
+Undefined $$props.$$slots in Sapper
+===================================
 
 A minimal reproduction project to demonstrate the `undefined` slots in [Sapper][1]. Project based on [sveltejs/sapper-template][2]
 
