@@ -34,7 +34,7 @@ npm install
 npm run dev
 ```
 
-1. Navigate to `http://localhost:3000`
+1. Navigate to [http://localhost:3000][3]
 2. Observe Sapper logs in CLI, note the output of multipled `undefined` statements. Observe the client-side console contains an entry with the expected output.
 
 Environment
@@ -46,3 +46,4 @@ Environment
 
 [1]: https://github.com/sveltejs/sapper
 [2]: https://github.com/sveltejs/sapper-template
+[3]: http://localhost:3000
