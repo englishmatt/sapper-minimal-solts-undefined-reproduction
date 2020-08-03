@@ -24,7 +24,7 @@ For `$$props.$$slots` to have references to the slots made available in the comp
 Actual
 ------
 
-`$$props.$$slots` is `undefined` when rendered using SSR. ($$props.$$slots is available during CSR.)
+`$$props.$$slots` is `undefined` when rendered using SSR. (`$$props.$$slots` is defined and available during CSR.)
 
 Reproduce
 ---------
@@ -34,8 +34,8 @@ npm install
 npm run dev
 ```
 
-Observe Sapper logs in CLI, note the output `undefined`.
-Observe the client-side console contains an entry with the expected slots.
+1. Navigate to `http://localhost:3000`
+2. Observe Sapper logs in CLI, note the output of multipled `undefined` statements. Observe the client-side console contains an entry with the expected output.
 
 Environment
 -----------
